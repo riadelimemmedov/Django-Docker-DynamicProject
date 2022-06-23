@@ -1,0 +1,7 @@
+docker run -d --name db -e POSTGRES_USER=test -e POSTGRES_PASSWORD=password  -e POSTGRES_DB=studentdb -v ~/postgres-data/:/var/lib/postgresql/data -p 5555:5432 postgres
+
+docker ps
+
+docker exec -it db /bin/bash
+
+psql --dbname=studentdb --username=test
