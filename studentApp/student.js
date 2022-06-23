@@ -1,2 +1,2 @@
 //!Student js file
-console.log('Hello student Javascript file js ')
+console.log('Hello student Javascript file')
