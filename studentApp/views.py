@@ -5,5 +5,5 @@ from .models import *
 
 class StudentListView(ListView):
     model = Student
-    template_name = 'students.html'#send all studends in students.html
+    template_name = 'students.html'#send all studends in students.html and js
     context_object_name = 'students'
